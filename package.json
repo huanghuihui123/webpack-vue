@@ -8,12 +8,10 @@
     "build": "cross-env NODE_ENV=production webpack --config build/webpack.prod.js",
     "dll": "webpack --config build/webpack.dll.js",
     "lint": "eslint --ext .vue,.js src/  --fix",
-    "lint-staged": "prettier --write src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "pre-commit": [
-    "lint",
-    "lint-staged"
+    "lint"
   ],
   "keywords": [],
   "author": "",
