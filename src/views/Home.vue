@@ -4,6 +4,14 @@
   </div>
 </template>
 
+<script>
+export default {
+  created() {
+    console.log("this", this);
+  }
+}
+</script>
+
 <style  lang="less" module>
 .text {
   color: red;
