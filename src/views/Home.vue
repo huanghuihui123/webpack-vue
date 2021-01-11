@@ -6,8 +6,8 @@
 
 <script>
 export default {
-  created() {
-    console.log("this", this);
+  created () {
+    console.log('this', this)
   }
 }
 </script>
