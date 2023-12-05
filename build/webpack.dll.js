@@ -1,8 +1,8 @@
 const path = require("path");
 const webpack = require("webpack");
-const package = require("../package.json"); // 从package.json文件中获取依赖
+const packages = require("../package.json"); // 从package.json文件中获取依赖
 
-let dependencies = Object.keys(package.dependencies) || []; // 获取依赖
+let dependencies = Object.keys(packages.dependencies) || []; // 获取依赖
 if (dependencies.length) {
   dependencies = dependencies.filter((item) => item !== "vue") || [];
 }

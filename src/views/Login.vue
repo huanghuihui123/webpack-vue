@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<style  lang="less" module>
+<style lang="less" module>
 .text {
   color: brown;
 }

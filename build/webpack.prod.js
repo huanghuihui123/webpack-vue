@@ -1,4 +1,3 @@
-const Webpack = require("webpack");
 const { merge } = require("webpack-merge");
 const webpackConfig = require("./webpack.config.js");
 const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
